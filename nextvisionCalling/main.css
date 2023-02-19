@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+ background-color: black;
+ font-family: 'Pretendard-Regular';
+ color: white;
+ font-size: 70;
+ font-weight: medium;
+
+}
+
+.wrap{
+    max-width:1080px;
+    min-width: 360px;
+    margin:0 auto; 
+    background-color: black;
+}
+
+.fix{
+    position: fixed;
+    max-width: 1080px;
+    min-width: 360px;
+    margin: 0 auto;
+    width : 100%;
+    bottom: 0px;
+
+}
+.fix .fix_calling{
+    width: 40%;
+    margin : 15px;      
+}  
+.fix .form{
+    width : 100%;
+}
+.mainImg{
+    text-align: center;
+    width : 100%; 
+    margin: 0 auto;
+}
+.mainImg img{
+    width: 100%;
+}
+
+.countup{
+    font-size: 70;
+}
+.countup p{
+    text-align: left;
+    padding : 80px;
+    line-height: 90px;
+}
+.countup span{
+    color: white;
+
+}
+
+.slider{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(247,247,249);
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-height : 1700px;
+}
+
+.slider img {
+    position: absolute;
+    width: 100%;
+    min-width: 360px;
+    margin: 0 auto;
+    top:0;
+    left: 0;
+    text-align: center;
+}
+.inner{
+    position: absolute;
+    bottom: 50px;
+    height: 40vh;
+    width : 4000px;
+    max-height : 60vh;
+}
+
+.inner section{
+    position: relative;
+    width : 50vh; 
+    height : 100%;
+    float: left;
+    margin: 20px;
+/*    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); */
+}
